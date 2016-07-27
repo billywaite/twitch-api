@@ -1,0 +1,212 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body {
+  font-family: 'Montserrat';
+  background: #E4E3DF;
+  text-shadow: 0px 0px 5px #000000;
+}
+
+.container-fluid {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/****************
+Twitch Streamers header section
+*****************/
+.header {
+  background: #868989;
+  max-width: 900px;
+  justify-content: center;
+  text-align: left;
+  margin: 0 auto;
+  padding: 30px;
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 7px;
+  color: white;
+  font-size: 75px;
+}
+
+/*********************
+CSS for online Channels
+*********************/
+.online {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.online div {
+  background: #6D92A0;
+  max-width: 900px;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 7px;
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: white;
+  font-family: 'Montserrat';
+  transition-duration: 2s;
+}
+
+.online div:hover {
+  box-shadow: 0 5px 7px 0 black;
+  animation: pulse 2s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    background-color: #6D92A0;
+  }
+  100% {
+    transform: scale(1.03);
+    background-color: #868989;
+  }
+}
+.online img {
+  max-height: 90px;
+  max-width: 90px;
+  border-radius: 30px;
+  border: 5px solid white;
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.1);
+  margin-left: 10px;
+}
+
+.online h2 {
+  padding-left: 10px;
+}
+
+.online h3 {
+  padding-left: 15%;
+  padding-top: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*********************
+CSS for offline Channels
+*********************/
+.offline {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.offline div {
+  background: #D47C6A;
+  max-width: 900px;
+  display: flex;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 7px;
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: white;
+  font-family: 'Montserrat';
+  position: relative;
+  transition-duration: 2s;
+}
+
+.offline div:hover {
+  box-shadow: 0 5px 7px 0 black;
+  animation: pulse 2s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    background-color: #D47C6A;
+  }
+  100% {
+    transform: scale(1.03);
+    background-color: #868989;
+  }
+}
+.offline img {
+  max-height: 90px;
+  max-width: 90px;
+  border-radius: 30px;
+  border: 5px solid white;
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.1);
+  margin-left: 10px;
+}
+
+.offline h2 {
+  padding-left: 10px;
+}
+
+.offline h3 {
+  position: absolute;
+  left: 65%;
+  padding-top: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*********************
+CSS for account Closed Channels
+*********************/
+.accountClosed {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.accountClosed div {
+  background: #868989;
+  max-width: 900px;
+  display: flex;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 7px;
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: white;
+  font-family: 'Montserrat';
+  position: relative;
+  transition-duration: 2s;
+}
+
+.accountClosed div:hover {
+  box-shadow: 0 5px 7px 0 black;
+  animation: pulse 2s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    background-color: #868989;
+  }
+  100% {
+    transform: scale(1.03);
+    background-color: #868989;
+  }
+}
+.accountClosed img {
+  max-height: 90px;
+  max-width: 90px;
+  border-radius: 30px;
+  border: 5px solid white;
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.1);
+  margin-left: 10px;
+}
+
+.accountClosed h2 {
+  padding-left: 10px;
+}
+
+.accountClosed h3 {
+  position: absolute;
+  left: 60%;
+  padding-top: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
